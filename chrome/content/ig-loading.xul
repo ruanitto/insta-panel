@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!-- Extremely recommended to keep this css include!! -->
+<?xml-stylesheet href="chrome://instagram_panel/content/ig-loading.css" type="text/css"?>
+ 
+<!DOCTYPE overlay SYSTEM "chrome://instagram_panel/locale/loading.dtd">
+ 
+<window id="instagramLoaging_window"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+ 
+  <vbox id="loading_vbox" align="center">
+    <label id="instagram_label" value="&loading.instagram_label;" />
+    <image id="instagram_loading_img" src="chrome://instagram_panel/content/ig-128.png" />
+    <label  id="loading_label" value="&loading.loading_label;" />
+    <progressmeter id="instagramLoadingProgress" mode="undetermined" />
+    <label id="contribution_label" href="https://addons.mozilla.org/pt-BR/firefox/addon/painel-do-instagram/about" class="text-link" value="&loading.contribution_label;"/>
+  </vbox>
+ 
+</window>   
