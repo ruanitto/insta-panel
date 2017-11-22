@@ -1,6 +1,0 @@
-content   instagram_panel                 chrome/content/
-
-locale    instagram_panel   en-US         chrome/locale/en-US/
-locale    instagram_panel   pt-BR         chrome/locale/pt-BR/
-
-overlay	chrome://browser/content/browser.xul	chrome://instagram_panel/content/ig-overlay.xul

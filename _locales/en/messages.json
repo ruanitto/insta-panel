@@ -1,0 +1,12 @@
+{
+  "extensionName": {
+    "message": "Panel for Instagram™",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Easily access Instagram™ in a separate panel. Instagram™ does not endorse or sponsor this project.",
+    "description": "Description of the extension."
+  }
+
+}
